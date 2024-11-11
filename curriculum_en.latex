@@ -1,0 +1,261 @@
+\documentclass{article}
+\usepackage{helvet}
+\usepackage{hyperref}
+\renewcommand{\familydefault}{\sfdefault}
+%\usepackage[T1]{fontenc}
+%\usepackage{ae,aecompl}
+%\usepackage{times}
+\pagestyle{empty}		% no page numbers, thanks.
+\addtolength{\topmargin}{-1.2in}% repairing LaTeX's huge margins...
+\addtolength{\leftmargin}{1.4in}  % same here....
+\setlength{\oddsidemargin}{0.5in}
+\addtolength{\textwidth}{1.3in}	% and here...
+\addtolength{\marginparsep}{0in} 
+\setlength{\parindent}{0mm}	% indented paragraphs just don't make it
+			   	% on a resume.  (My opinion; if you
+			   	% disagree, give this whatever value you
+			   	% want.) 
+\setlength{\textheight}{10in}	% more margin hacking.  I have a large
+			    	% resume to fit on one page.
+%\usepackage[
+%top    = 1.0cm,
+%bottom = 1.0cm,
+%left   = 3.00cm,
+%right  = 2.50cm]{geometry}
+\begin{document}
+\reversemarginpar		% this puts the margin notes on the
+				% left-hand side of the resume.
+
+\begin{center}
+\huge{\bf Adriano Vieira Petrich}	% make the name stand out
+\end{center}
+\par
+petrich@gmail.com \hspace*{\fill} Phone (+49) 01575 1453514
+\linebreak
+Berlin, DE \hspace*{\fill}
+
+\par
+\vspace{2\baselineskip}
+\vspace{\baselineskip}
+Staff Engineer \marginpar{{\bf Objective}}
+
+				% if the \marginpar is at the beginning
+				% of the line, it loses.  *sigh*.  This
+				% is a typical entry in a resume.   (I'm
+				% defining an entry as something
+				% important enough to have a marginal note
+				% setting it off.)  Give it some space
+				% with \vspace, use \par to break
+				% between paragraphs, enter your text,
+				% and place the \marginpar at the end.
+\par
+\vspace{\baselineskip}
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+{\bf Computer Related } \marginpar{{\bf Important Skills}}
+\par
+{\bf Python } has been my language of choice since the early 2000's. Initially, I used it mostly for personal projects and after 2005 also for large commercial projects. I've also extensively used {\bf java} (j2ee and j2me), {\bf ruby} (specially Ruby on Rails) and {\bf perl}. I've been a {\bf Linux } power user since 2001. I'm also a heavy {\bf git } user.
+\vspace{\baselineskip}
+\par
+{\bf Agile Methodology and Leadership }
+\par
+In 2004, I became a techlead in a project and started using {\bf scrum}, which later proved invaluable for coordinating a geographically dispersed group of developers. Since 2008, I've also been using {\bf TDD}, {\bf BDD} and {\bf critical chain} methodologies.    
+\vspace{\baselineskip}
+\par
+{\bf Web Development (especially Django and Ruby on Rails)}
+\par
+I started doing web development in 2000. Over the years, I've used most of the traditional technologies (ASP, PHP, cgi, java Servlets, Struts...), but since {\bf rails} 0.7 and later {\bf django} 0.96 came out, they have dominated my projects. 
+\vspace{\baselineskip}
+\par
+%{\bf Analysis } 
+%\par
+%An agnostic view towards technologies, processes and methods avoiding unnecessary hype or old methodology that do not benefit the project or the developers.
+%\vspace{.03in}
+%\par
+
+
+{\bf Languages}: English, Portuguese, Basic French, Basic Spanish.
+\vspace{.03in}
+\par
+%\vspace{2\baselineskip}
+				% This is a slightly more complicated
+				% example.  \vspace gets a `doublespace'
+				% (2\baselineskip) between entries, and
+				% a  `singlespace' between paragraphs of
+				% an entry.
+				% (2\baselineskip means twice the value
+				% of \baselineskip). 
+
+\vspace{\baselineskip}
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+
+{\bf Software Engineer at Red Hat (limited UK then GmbH} \marginpar{{\bf Experience}}
+\hfill {{\bf 2015 --- present }}
+\par
+\vspace{.03in}
+Development of Tripleo, Red Hat's version of Openstack, an opensource cloud environment. Also became core and DTL of mistral, an opensource openstack workflow. Extensive use of python, ansible, bash, containers, orchestration, and virtualization
+\par
+\vspace{\baselineskip}
+
+{\bf Senior Developer at Hogarth Worldwide.}
+\hfill {{\bf 2013 --- 2015 }}
+\par
+\vspace{.03in}
+Worked in ZONZA, a cloud-based asset management system written in django that is cloud provider agnostic. The development used SCRUM, TDD, BDD, and CI extensively.
+\par
+\vspace{\baselineskip}
+
+{\bf Lead Developer and Tech Lead at VirtualX Brasil.}
+\hfill {{\bf 2011 --- 2013 }}
+\par
+\vspace{.03in}
+A startup aiming to provide semantic knowledge about all online products in Brazil.  We used a wild range of cutting edge technologies and techniques; like Machine Learning, Natural Language Processing, Computer Vision, NoSQL.
+Acted as a tech lead, coordinator and liaison for the development team from a partnership with Virginia Tech, besides managing a local team.
+\par
+\vspace{\baselineskip}
+
+{\bf Fractalware Software Development.}    
+\hfill {{\bf 2005 --- inactive since 2013 }}
+\par
+\vspace{.03in}
+My own company aimed at providing high level consulting and development services.  
+ 
+\begin{description}
+    \item[Outstanding Projects:]
+\begin{description}
+    \item
+
+    \item[Associa\c{c}\~{a}o Brasil SGI] Development, training and mentoring: A Django application for a NGO with very specific scaling issues.  
+
+    \item[Bradesco and 7Comm] Tech lead: Bradesco is one of the largest banks in Brazil. I was the  tech lead of a group of 40 java developers to create an offline banking application.  
+\end{description} 
+\end{description} 
+\vspace{\baselineskip}
+{\bf Lead Developer and System Architect at Gliconline.}
+\hfill {{\bf 2006 --- 2011 }}
+\par
+\vspace{.03in}
+A startup to help people with diabetes. Coordinated the development of third party software to
+access the open API. Created a backend, mobile apps and a web interface.
+\par
+\pagebreak
+\vspace{\baselineskip}
+{\bf Tech Lead and System Architect at MiPC.} \hfill {{\bf 2008 }}
+\par
+\vspace{.03in}
+Coordinated an offshore team to develop a terminal service server linux distro based on nomachine.
+Management was done using agile methods. Massive code base, customization went from kernel components to gnome applications.
+\par
+\vspace{\baselineskip}
+{\bf Tech Lead at Insite Solu\c{c}\~{o}es Internet.} \hfill {{\bf 2004 --- 2006 }}
+\par
+\vspace{.03in}
+Designed, implemented and coordinated a team to develop an ISP. Responsible for modeling the structure and intercommunication both with
+legacy and external systems. Main core developed over jboss + mysql. Horizontal scalability and stability were prime requirements.
+\par
+\vspace{\baselineskip}
+{\bf Software engineer at Acabit Comercio e Tecnologia Ltda.} \hfill {{\bf 2000 --- 2004 }}
+\par
+\vspace{.03in}
+Working for one of the first B2B sites in Brazil (Mercado Eletr\^{o}nico). I was responsible for integration and customization for large clients like Brasil Telecom, Martins and Mahle Metal Leve.
+\par
+\vspace{\baselineskip}
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+I don't have a bachelor's degree, having left university to focus on programming.  \marginpar{{\bf Education}}
+However, as I have since accumulated significant work experience, and as I am an avid self-taught learner, I don't think this limits my abilities as a developer.
+\par
+
+\vspace{\baselineskip}
+
+{\bf Physics Bachelor - Instituto de F\'{\i}sica USP} \hspace*{\fill} {{\bf 1995 --- 2003 }}
+\par
+\vspace{.03in}
+
+Focus given to the practical aspects of physics, like development of new instrumentation,
+data acquisition software and analog to digital conversion. Extra classes taken at biology and hardware design.
+
+% Shouldn't need to mention the mainstream courses.
+\par
+
+\vspace{\baselineskip}
+{\bf Electrical Engineering - Escola de Engenharia Mackenzie} \hspace*{\fill} {{\bf 1992 --- 1995 }}
+\par
+\vspace{.03in}
+Classes included programming in C and Pascal, linear algebra and numeric calculus.
+
+\par
+\vspace{\baselineskip}
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+
+
+{\bf Mistral - Project Update } \marginpar{{\bf Presentations and Courses }} 
+\vspace{.03in}
+\par
+Openstack Summit Berlin 2018 
+\par
+\vspace{\baselineskip}
+{\bf Yak shaving a good place to eat using non negative matrix factorization }
+\vspace{.03in}
+\par
+Using data analysis to find a place to eat.
+\par
+Europython 2015. Slides: http://slidesha.re/nbTsaP
+\par
+\vspace{\baselineskip}
+{\bf Procrastinating with Celery } (presented in Portuguese)
+\par
+TDC 2011 (The Developers Conference 2011). Slides: http://slidesha.re/nbTsaP
+\par
+\vspace{\baselineskip}
+{\bf Test Driven Development in Django, no excuses } (presented in Portuguese)  
+\par
+FISL 11 (11th International Free Software Forum) in 2010 and in TDC 2010 (The Developers Conference 2010). Slides: http://slidesha.re/b9xHYp
+\par
+\vspace{\baselineskip}
+{\bf Starting with TDD and BDD in Django } (presented in Portuguese)
+\par
+PythonBrasil[6] in 2010.
+\vspace{\baselineskip}
+\par
+{\bf From 0 to Python to Django } (presented in Portuguese)
+\par
+A 80 hour course that starts with the basic principles of python and OO and ends with advanced django.
+Taught at both Globo.com and Globosat, members of the largest media company in Brazil.
+\vspace{.03in}
+\par
+\vspace{\baselineskip}
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+
+
+
+%\vspace{2\baselineskip}
+{\bf ADK challenge for Google Developer Day 2011 }
+\marginpar{{\bf Awards and Contests}}
+\vspace{.03in}
+\par
+One of the ten Brazilian finalists for the Android Development Kit challenge. 
+\par
+\href{https://sites.google.com/site/opencallforgdd/the-challenge}{https://sites.google.com/site/opencallforgdd/the-challenge}
+
+\par
+\vspace{\baselineskip}
+
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+
+
+%\vspace{2\baselineskip}
+Photography and cooking
+\marginpar{{\bf Other Links and Interests}}
+\par
+github \href{http://github.com/frac}{http://github.com/frac}  slideshare \href{http://www.slideshare.net/fractalk}{http://www.slideshare.net/fractalk}
+\par
+I was founder and organiser of the \href{http://twitter.com/pythondundee}{python dundee} user group.
+\par
+\begin{center}\small This document is done in \LaTeX\end{center}
+\end{document}
+
