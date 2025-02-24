@@ -1,0 +1,248 @@
+\documentclass{article}
+\usepackage{helvet}
+\usepackage{hyperref}
+\usepackage{xstring}
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\printvalues}{topsep=\the\topsep; itemsep=\the\itemsep; parsep=\the\parsep; partopsep=\the\partopsep}
+%\newcommand{\jobRole}{staff} % This will be dynamically set by the script
+
+%
+\pagestyle{empty}        % no page numbers, thanks.
+\addtolength{\topmargin}{-1.2in}% repairing LaTeX's huge margins...
+\addtolength{\leftmargin}{2.4in}  % same here....
+\setlength{\oddsidemargin}{0.5in}
+\addtolength{\textwidth}{1.3in} % and here...
+\addtolength{\marginparsep}{0in}
+\setlength{\parindent}{0mm}  % indented paragraphs just don't make it
+                    % on a resume.  (My opinion; if you
+                    % disagree, give this whatever value you
+                    % want.) 
+\setlength{\textheight}{10in}  % more margin hacking.  I have a large
+                    % resume to fit on one page.
+\StrSubstitute{\jobRole}{-}{ }[\jobRoleFormatted]
+\begin{document}
+
+\begin{center}
+\huge{\bf Adriano Vieira Petrich}    % make the name stand out
+\end{center}
+\reversemarginpar        % this puts the margin notes on the left-hand side of the resume.
+\par
+petrich@gmail.com \hspace*{\fill} Phone (+49) 01575 1453514
+\linebreak
+Berlin, DE \hspace*{\fill}
+
+\par
+%\vspace{2\baselineskip}
+\vspace{\baselineskip}
+\jobRoleFormatted  Engineer \marginpar{{\bf Objective}}
+\par
+\vspace{\baselineskip}
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+
+{\bf } \marginpar{{\bf Summary}}
+\par
+Software Engineer with nearly 20 years of proven expertise in designing and implementing complex distributed systems. Demonstrated success in leading cross-functional teams across cloud infrastructure, system integration, and high-security environments. Core contributor to OpenStack's TripleO project at Red Hat, with deep expertise in Python, Rust, and cloud technologies. Known for breaking down complex architectures into manageable components while maintaining system cohesion. Passionate mentor who has successfully led both co-located and distributed teams, fostering growth through knowledge sharing and collaborative development practices. Currently focused on developing secure gateway solutions using Rust and microkernel architecture.
+\vspace{\baselineskip}
+\par
+
+{\bf Technical Expertise}
+
+\par
+Languages \& Core: Python (20+ years), Rust, Java, Ruby, Perl | Shell: Bash
+\par
+Cloud \& Infrastructure: OpenStack/TripleO, Containerization, Ansible, Virtualization
+\par
+Architecture: Distributed Systems, Microservices, Security Gateways, L4 Microkernel
+\par
+Data \& ML: Machine Learning, NLP, Computer Vision, SQL/NoSQL, GIS
+\par
+Development: TDD/BDD, CI/CD, Agile/SCRUM | OS: Linux (Advanced), Kernel Development
+
+\vspace{\baselineskip}
+\par
+
+{\bf Languages}: English, Portuguese, Basic French, Basic Spanish.
+\vspace{.03in}
+\par
+\vspace{\baselineskip}
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+{\bf Senior Developer at Infodas GmbH} \marginpar{{\bf Experience}}
+\hfill {{\bf 2022 --- present }}
+\par
+\vspace{.01in}
+\begin{itemize}
+\setlength{\topsep}{0mm}
+\setlength{\itemsep}{0mm}
+\setlength{\parsep}{0mm}
+%    \item\printvalues
+    \item Content aware gateway developed in Rust using L4 microkernel.
+    \item Created in a secure environment.
+    \item Point of contact and integration of code between Systems and Platform divisions.
+\end{itemize}
+\par
+%\vspace{\baselineskip}
+
+
+{\bf Software Engineer at Red Hat (limited UK then GmbH)}
+\hfill {{\bf 2015 --- 2022 }}
+\par
+\vspace{.01in}
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\setlength{\parsep}{0mm}
+    \item Development of Tripleo, Red Hat's version of Openstack, an opensource cloud environment.
+    \item Core and DTL of mistral (opensource workflow engine).
+    \item Large codebase with massive use of python, ansible, bash, containers, orchestration, and virtualization.
+\end{itemize}
+\par
+%\vspace{\baselineskip}
+
+{\bf Senior Developer at Hogarth Worldwide}
+\hfill {{\bf 2013 --- 2015 }}
+\par
+\vspace{.01in}
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\setlength{\parsep}{0mm}
+    \item Helped create a cloud-based asset management system written in django that is cloud provider agnostic.
+    \item The development used SCRUM, TDD, BDD, and CI extensively.
+\end{itemize}
+\par
+%\vspace{\baselineskip}
+
+{\bf Lead Developer and Tech Lead at VirtualX Brasil}
+\hfill {{\bf 2011 --- 2013 }}
+\par
+\vspace{.01in}
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\setlength{\parsep}{0mm}
+    \item A startup aiming to provide semantic knowledge about all online products in Brazil.
+    \item Used loads of Machine Learning, Natural Language Processing, Computer Vision, NoSQL.
+    \item Coordinator and liaison for the development team from a partnership with Virginia Tech, besides managing a local team.
+\end{itemize}
+\par
+%\vspace{\baselineskip}
+
+{\bf Various Software Development Jobs}    
+\hfill {{\bf 2000 --- 2013 }}
+\par
+\vspace{.03in}
+%\begin{description}
+%    \item[ ]
+\begin{itemize}
+\setlength{\leftmargin}{1.4in}
+\setlength{\itemsep}{0mm}
+\setlength{\parsep}{0mm}
+
+    \item {\bf Tamoios Tecnologia} Created a Django-GIS application that read georeferenced satellite and aerial photography to control deforestation in the Amazon. Later mentored a team to maintain it.
+
+    \item {\bf Associa\c{c}\~{a}o Brasil SGI} Led development, training, and mentoring efforts for a Django-based application supporting an NGO with unique scalability requirements.
+
+    \item {\bf Bradesco and 7Comm} Served as Tech Lead for a 40-member Java development team on an offline banking solution for Bradesco, one of Brazil's largest banks.
+
+    \item {\bf Gliconline} Founder and Lead Engineer at a startup focused on supporting people with diabetes. Created a full stack web developement including APIs and mobile applications.
+
+    \item {\bf MiPC} Tech Lead and System Architect, overseeing an offshore team in developing a terminal service server Linux distribution based on Nomachine. Dealing with a large code base from kernel-level to GNOME applications.
+
+    \item {\bf Insite} Tech Lead responsible for designing, implementing, and coordinating an ISP system. JBoss and MySQL used for core infrastructure. Integration with RADIUS and POTS
+
+
+%\end{description} 
+\end{itemize} 
+\vspace{\baselineskip}
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+I don't have a bachelor's degree, having left university to focus on programming.  \marginpar{{\bf Education}}
+However, as I have since accumulated significant work experience, and as I am an avid self-taught learner, I don't think this limits my abilities as a developer.
+\par
+
+\vspace{\baselineskip}
+
+{\bf Physics Bachelor - Instituto de F\'{\i}sica USP} \hspace*{\fill} {{\bf 1995 --- 2003 }}
+\par
+\vspace{.03in}
+
+Focus given to the practical aspects of physics, like development of new instrumentation,
+data acquisition software and analog to digital conversion. Extra classes taken at biology and hardware design.
+\par
+
+\vspace{\baselineskip}
+{\bf Electrical Engineering - Escola de Engenharia Mackenzie} \hspace*{\fill} {{\bf 1992 --- 1995 }}
+\par
+\vspace{.03in}
+Classes included programming in C and Pascal, linear algebra and numeric calculus.
+
+\par
+\vspace{\baselineskip}
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+
+
+{\bf Mistral - Project Update } \marginpar{{\bf Presentations and Courses }} 
+\vspace{.03in}
+\par
+Openstack Summit Berlin 2018 
+\par
+\vspace{\baselineskip}
+{\bf Yak shaving a good place to eat using non negative matrix factorization }
+\vspace{.03in}
+\par
+Using data analysis to find a place to eat.
+\par
+Europython 2015. Slides: http://slidesha.re/nbTsaP
+\par
+\vspace{\baselineskip}
+{\bf Procrastinating with Celery } (presented in Portuguese)
+\par
+TDC 2011 (The Developers Conference 2011). Slides: http://slidesha.re/nbTsaP
+\par
+\vspace{\baselineskip}
+{\bf Test Driven Development in Django, no excuses } (presented in Portuguese)  
+\par
+FISL 11 (11th International Free Software Forum) in 2010 and in TDC 2010 (The Developers Conference 2010). Slides: http://slidesha.re/b9xHYp
+\par
+\vspace{\baselineskip}
+{\bf Starting with TDD and BDD in Django } (presented in Portuguese)
+\par
+PythonBrasil[6] in 2010.
+\vspace{\baselineskip}
+\par
+{\bf From 0 to Python to Django } (presented in Portuguese)
+\par
+A 80 hour course that starts with the basic principles of python and OO and ends with advanced django.
+Taught at both Globo.com and Globosat, members of the largest media company in Brazil.
+\vspace{.03in}
+\par
+\vspace{\baselineskip}
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+
+
+{\bf ADK challenge for Google Developer Day 2011 }
+\marginpar{{\bf Awards and Contests}}
+\vspace{.03in}
+\par
+One of the ten Brazilian finalists for the Android Development Kit challenge. 
+\par
+\href{https://sites.google.com/site/opencallforgdd/the-challenge}{https://sites.google.com/site/opencallforgdd/the-challenge}
+
+\par
+\vspace{\baselineskip}
+
+\marginpar{\rule{7.2in}{0.4mm}}
+\vspace{.1in}
+
+
+{\bf Other Links and Interests}
+\marginpar{{\bf Other Links and Interests}}
+\par
+github \href{http://github.com/frac}{http://github.com/frac}  slideshare \href{http://www.slideshare.net/fractalk}{http://www.slideshare.net/fractalk}
+\par
+I was founder and organiser of the \href{http://twitter.com/pythondundee}{python dundee} user group.
+\par
+%\begin{center}\small This document is done in \LaTeX\end{center}
+\end{document}
+

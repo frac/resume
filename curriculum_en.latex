@@ -2,33 +2,25 @@
 \usepackage{helvet}
 \usepackage{hyperref}
 \renewcommand{\familydefault}{\sfdefault}
-%\usepackage[T1]{fontenc}
-%\usepackage{ae,aecompl}
-%\usepackage{times}
-\pagestyle{empty}		% no page numbers, thanks.
+%
+\pagestyle{empty}        % no page numbers, thanks.
 \addtolength{\topmargin}{-1.2in}% repairing LaTeX's huge margins...
 \addtolength{\leftmargin}{1.4in}  % same here....
 \setlength{\oddsidemargin}{0.5in}
-\addtolength{\textwidth}{1.3in}	% and here...
+\addtolength{\textwidth}{1.3in} % and here...
 \addtolength{\marginparsep}{0in} 
-\setlength{\parindent}{0mm}	% indented paragraphs just don't make it
-			   	% on a resume.  (My opinion; if you
-			   	% disagree, give this whatever value you
-			   	% want.) 
-\setlength{\textheight}{10in}	% more margin hacking.  I have a large
-			    	% resume to fit on one page.
-%\usepackage[
-%top    = 1.0cm,
-%bottom = 1.0cm,
-%left   = 3.00cm,
-%right  = 2.50cm]{geometry}
+\setlength{\parindent}{0mm}  % indented paragraphs just don't make it
+                    % on a resume.  (My opinion; if you
+                    % disagree, give this whatever value you
+                    % want.) 
+\setlength{\textheight}{10in}  % more margin hacking.  I have a large
+                    % resume to fit on one page.
 \begin{document}
-\reversemarginpar		% this puts the margin notes on the
-				% left-hand side of the resume.
 
 \begin{center}
-\huge{\bf Adriano Vieira Petrich}	% make the name stand out
+\huge{\bf Adriano Vieira Petrich}    % make the name stand out
 \end{center}
+\reversemarginpar        % this puts the margin notes on the left-hand side of the resume.
 \par
 petrich@gmail.com \hspace*{\fill} Phone (+49) 01575 1453514
 \linebreak
@@ -38,63 +30,52 @@ Berlin, DE \hspace*{\fill}
 \vspace{2\baselineskip}
 \vspace{\baselineskip}
 Staff Engineer \marginpar{{\bf Objective}}
-
-				% if the \marginpar is at the beginning
-				% of the line, it loses.  *sigh*.  This
-				% is a typical entry in a resume.   (I'm
-				% defining an entry as something
-				% important enough to have a marginal note
-				% setting it off.)  Give it some space
-				% with \vspace, use \par to break
-				% between paragraphs, enter your text,
-				% and place the \marginpar at the end.
 \par
 \vspace{\baselineskip}
 \marginpar{\rule{7.2in}{0.4mm}}
 \vspace{.1in}
-{\bf Computer Related } \marginpar{{\bf Important Skills}}
-\par
-{\bf Python } has been my language of choice since the early 2000's. Initially, I used it mostly for personal projects and after 2005 also for large commercial projects. I've also extensively used {\bf java} (j2ee and j2me), {\bf ruby} (specially Ruby on Rails) and {\bf perl}. I've been a {\bf Linux } power user since 2001. I'm also a heavy {\bf git } user.
-\vspace{\baselineskip}
-\par
-{\bf Agile Methodology and Leadership }
-\par
-In 2004, I became a techlead in a project and started using {\bf scrum}, which later proved invaluable for coordinating a geographically dispersed group of developers. Since 2008, I've also been using {\bf TDD}, {\bf BDD} and {\bf critical chain} methodologies.    
-\vspace{\baselineskip}
-\par
-{\bf Web Development (especially Django and Ruby on Rails)}
-\par
-I started doing web development in 2000. Over the years, I've used most of the traditional technologies (ASP, PHP, cgi, java Servlets, Struts...), but since {\bf rails} 0.7 and later {\bf django} 0.96 came out, they have dominated my projects. 
-\vspace{\baselineskip}
-\par
-%{\bf Analysis } 
-%\par
-%An agnostic view towards technologies, processes and methods avoiding unnecessary hype or old methodology that do not benefit the project or the developers.
-%\vspace{.03in}
-%\par
 
+{\bf Tech Leadership, Design, and System Architecture Implementation} \marginpar{{\bf Important Skills}}
+\par
+With nearly 20 years of experience, I specialize in system modeling, breaking down complex systems into manageable components, and effectively dividing tasks among teams. I also have extensive experience in integrating various modules into a cohesive solution, ensuring a unified vision throughout the development process.
+
+\vspace{\baselineskip}
+\par
+
+{\bf Communication and Mentoring}
+\par
+I have led large in-house teams as well as geographically dispersed groups of developers. I emphasize open, two-way communication to foster collaboration and productivity, and I enjoy mentoring and helping newer developers grow their skills.
+\vspace{\baselineskip}
+\par
+
+{\bf Computer Related }
+\par
+I have focused in {\bf Python} and {\bf Linux} since the early 2000s. I also have extensive experience with Java, Ruby (especially Ruby on Rails), and Perl. More recently, I have been using {\bf Rust} for high-performance projects.
+
+
+\vspace{\baselineskip}
+\par
 
 {\bf Languages}: English, Portuguese, Basic French, Basic Spanish.
 \vspace{.03in}
 \par
-%\vspace{2\baselineskip}
-				% This is a slightly more complicated
-				% example.  \vspace gets a `doublespace'
-				% (2\baselineskip) between entries, and
-				% a  `singlespace' between paragraphs of
-				% an entry.
-				% (2\baselineskip means twice the value
-				% of \baselineskip). 
-
 \vspace{\baselineskip}
 \marginpar{\rule{7.2in}{0.4mm}}
 \vspace{.1in}
-
-{\bf Software Engineer at Red Hat (limited UK then GmbH} \marginpar{{\bf Experience}}
-\hfill {{\bf 2015 --- present }}
+{\bf Senior Developer at Infodas GmbH} \marginpar{{\bf Experience}}
+\hfill {{\bf 2022 --- present }}
 \par
 \vspace{.03in}
-Development of Tripleo, Red Hat's version of Openstack, an opensource cloud environment. Also became core and DTL of mistral, an opensource openstack workflow. Extensive use of python, ansible, bash, containers, orchestration, and virtualization
+Development in Rust of a content aware gateway. Strong emphasis in security and secrecy. Responsible for integrating the code of UI, Systems and Platform divisions into first a Proof of concept and later into a Demo.
+\par
+\vspace{\baselineskip}
+
+
+{\bf Software Engineer at Red Hat (limited UK then GmbH)}
+\hfill {{\bf 2015 --- 2022 }}
+\par
+\vspace{.03in}
+Development of Tripleo, Red Hat's version of Openstack, an opensource cloud environment. Also became core and DTL of mistral, an opensource openstack workflow. Extensive use of python, ansible, bash, containers, orchestration, and virtualization.
 \par
 \vspace{\baselineskip}
 
@@ -115,51 +96,28 @@ Acted as a tech lead, coordinator and liaison for the development team from a pa
 \par
 \vspace{\baselineskip}
 
-{\bf Fractalware Software Development.}    
-\hfill {{\bf 2005 --- inactive since 2013 }}
+{\bf Various Software Development Jobs.}    
+\hfill {{\bf 2000 --- 2013 }}
 \par
 \vspace{.03in}
-My own company aimed at providing high level consulting and development services.  
- 
-\begin{description}
+ \begin{description}
     \item[Outstanding Projects:]
 \begin{description}
     \item
 
-    \item[Associa\c{c}\~{a}o Brasil SGI] Development, training and mentoring: A Django application for a NGO with very specific scaling issues.  
+    \item[Associa\c{c}\~{a}o Brasil SGI] Led development, training, and mentoring efforts for a Django-based application supporting an NGO with unique scalability requirements, ensuring robust performance under specific demands.
 
-    \item[Bradesco and 7Comm] Tech lead: Bradesco is one of the largest banks in Brazil. I was the  tech lead of a group of 40 java developers to create an offline banking application.  
+    \item[Bradesco and 7Comm] Served as Tech Lead for a 40-member Java development team on an offline banking solution for Bradesco, one of Brazil's largest banks.
+
+    \item[Gliconline] Founder and Lead Engineer at a startup focused on supporting people with diabetes. Coordinated third-party software integration via open APIs and developed a complete solution including backend infrastructure, mobile applications, and a user-friendly web interface.
+
+    \item[MiPC] Tech Lead and System Architect, overseeing an offshore team in developing a terminal service server Linux distribution based on Nomachine. Managed large-scale code customizations, ranging from kernel-level to GNOME applications, with a focus on performance and usability.
+
+    \item[Insite] Tech Lead responsible for designing, implementing, and coordinating an ISP system. Modeled communication across legacy and external systems, ensuring scalability and stability using JBoss and MySQL for core infrastructure.
+
+
 \end{description} 
 \end{description} 
-\vspace{\baselineskip}
-{\bf Lead Developer and System Architect at Gliconline.}
-\hfill {{\bf 2006 --- 2011 }}
-\par
-\vspace{.03in}
-A startup to help people with diabetes. Coordinated the development of third party software to
-access the open API. Created a backend, mobile apps and a web interface.
-\par
-\pagebreak
-\vspace{\baselineskip}
-{\bf Tech Lead and System Architect at MiPC.} \hfill {{\bf 2008 }}
-\par
-\vspace{.03in}
-Coordinated an offshore team to develop a terminal service server linux distro based on nomachine.
-Management was done using agile methods. Massive code base, customization went from kernel components to gnome applications.
-\par
-\vspace{\baselineskip}
-{\bf Tech Lead at Insite Solu\c{c}\~{o}es Internet.} \hfill {{\bf 2004 --- 2006 }}
-\par
-\vspace{.03in}
-Designed, implemented and coordinated a team to develop an ISP. Responsible for modeling the structure and intercommunication both with
-legacy and external systems. Main core developed over jboss + mysql. Horizontal scalability and stability were prime requirements.
-\par
-\vspace{\baselineskip}
-{\bf Software engineer at Acabit Comercio e Tecnologia Ltda.} \hfill {{\bf 2000 --- 2004 }}
-\par
-\vspace{.03in}
-Working for one of the first B2B sites in Brazil (Mercado Eletr\^{o}nico). I was responsible for integration and customization for large clients like Brasil Telecom, Martins and Mahle Metal Leve.
-\par
 \vspace{\baselineskip}
 \marginpar{\rule{7.2in}{0.4mm}}
 \vspace{.1in}
@@ -175,8 +133,6 @@ However, as I have since accumulated significant work experience, and as I am an
 
 Focus given to the practical aspects of physics, like development of new instrumentation,
 data acquisition software and analog to digital conversion. Extra classes taken at biology and hardware design.
-
-% Shouldn't need to mention the mainstream courses.
 \par
 
 \vspace{\baselineskip}
@@ -231,8 +187,6 @@ Taught at both Globo.com and Globosat, members of the largest media company in B
 \vspace{.1in}
 
 
-
-%\vspace{2\baselineskip}
 {\bf ADK challenge for Google Developer Day 2011 }
 \marginpar{{\bf Awards and Contests}}
 \vspace{.03in}
@@ -248,8 +202,7 @@ One of the ten Brazilian finalists for the Android Development Kit challenge.
 \vspace{.1in}
 
 
-%\vspace{2\baselineskip}
-Photography and cooking
+{\bf Other Links and Interests}
 \marginpar{{\bf Other Links and Interests}}
 \par
 github \href{http://github.com/frac}{http://github.com/frac}  slideshare \href{http://www.slideshare.net/fractalk}{http://www.slideshare.net/fractalk}
