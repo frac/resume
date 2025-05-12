@@ -21,93 +21,105 @@
                     % resume to fit on one page.
 \StrSubstitute{\jobRole}{-}{ }[\jobRoleFormatted]
 \begin{document}
+\fontsize{9pt}{10.5pt}\selectfont
 
 \begin{center}
-\huge{\bf Adriano Vieira Petrich}    % make the name stand out
+\large{\bf Adriano Vieira Petrich}    % make the name stand out
 \end{center}
 \reversemarginpar        % this puts the margin notes on the left-hand side of the resume.
 \par
 petrich@gmail.com \hspace*{\fill} Phone (+49) 01575 1453514
-\linebreak
+\par
 Berlin, DE \hspace*{\fill}
 
 \par
 %\vspace{2\baselineskip}
 \vspace{\baselineskip}
-\jobRoleFormatted  Engineer \marginpar{{\bf Objective}}
-\par
-\vspace{\baselineskip}
-\marginpar{\rule{7.2in}{0.4mm}}
+%\par
+%\vspace{\baselineskip}
+%\marginpar{\rule{7.2in}{0.4mm}}
 \vspace{.1in}
 
-{\bf } \marginpar{{\bf Summary}}
 \par
-Software Engineer with nearly 20 years of proven expertise in designing and implementing complex distributed systems. Demonstrated success in leading cross-functional teams across cloud infrastructure, system integration, and high-security environments. Core contributor to OpenStack's TripleO project at Red Hat, with deep expertise in Python, Rust, and cloud technologies. Known for breaking down complex architectures into manageable components while maintaining system cohesion. Passionate mentor who has successfully led both co-located and distributed teams, fostering growth through knowledge sharing and collaborative development practices. Currently focused on developing secure gateway solutions using Rust and microkernel architecture.
-\vspace{\baselineskip}
-\par
+\jobRoleFormatted  Engineer from Brazil with Permanent Residency living in Berlin with 20 years of experience \marginpar{{\bf About me}}
+in designing and architecting cutting-edge distributed systems and backend solutions.
+Renowned for advanced Python expertise, having made significant contributions to OpenStack at Red Hat, where I led the development of core components and engineered a highly efficient workflow engine.
+Highly skilled in building scalable, secure APIs, designing robust cloud infrastructure, and delivering top-tier secure applications.
+Known for combining deep technical proficiency with the ability to simplify complex problems, mentor high-performing teams, and deliver innovative, high-impact software solutions across diverse industries and environments.
 
-{\bf Technical Expertise}
 
-\par
-Languages \& Core: Python (20+ years), Rust, Java, Ruby, Perl | Shell: Bash
-\par
-Cloud \& Infrastructure: OpenStack/TripleO, Containerization, Ansible, Virtualization
-\par
-Architecture: Distributed Systems, Microservices, Security Gateways, L4 Microkernel
-\par
-Data \& ML: Machine Learning, NLP, Computer Vision, SQL/NoSQL, GIS
-\par
-Development: TDD/BDD, CI/CD, Agile/SCRUM | OS: Linux (Advanced), Kernel Development
 
 \vspace{\baselineskip}
 \par
 
-{\bf Languages}: English, Portuguese, Basic French, Basic Spanish.
+\par
+Programming Languages \& Core Technologies: Python, Rust, Java, Async(Celery, Kafka, fastAPI) \marginpar{{\bf Technical\par Expertise}}
+\par
+Cloud \& Infrastructure: Ansible, OpenStack, Containerization, Virtualization, Docker, prometheus 
+\par
+Architecture \& Design: Distributed Systems, Microservices, Security Gateways, L4 Microkernel
+\par
+Data \& Machine Learning: SQL/NoSQL, Machine Learning, NLP, Computer Vision, GIS 
+\par
+Development Practices: Test-Driven Development (TDD), Behavior-Driven Development (BDD), Continuous Integration/Continuous Deployment (CI/CD), Agile/SCRUM  
+\par
+Operating Systems \& Tools: Linux (Advanced), System Automation 
+\par
+Languages: English (Fluent), Portuguese (Native), Basic French, Basic Spanish
+\vspace{\baselineskip}
+
 \vspace{.03in}
 \par
 \vspace{\baselineskip}
 \marginpar{\rule{7.2in}{0.4mm}}
 \vspace{.1in}
 {\bf Senior Developer at Infodas GmbH} \marginpar{{\bf Experience}}
-\hfill {{\bf 2022 --- present }}
+\hfill {{\bf 2022 --- 2025 }}
 \par
 \vspace{.01in}
+Development of a embedded content-aware gateway for industrial applications, integrating Rust, Python, and Ansible. Responsible for integration from baremetal kernel, virtualizations, and user level applications.
 \begin{itemize}
 \setlength{\topsep}{0mm}
 \setlength{\itemsep}{0mm}
 \setlength{\parsep}{0mm}
 %    \item\printvalues
-    \item Content aware gateway developed in Rust using L4 microkernel.
-    \item Created in a secure environment.
-    \item Point of contact and integration of code between Systems and Platform divisions.
+    \item Rust \& Embedded Systems: Developed a content-aware gateway using Rust on an L4 microkernel, ensuring memory safety, real-time performance, and secure execution in industrial environments.
+    \item Systems Integration \& Automation: Engineered seamless integration between Rust modules, Python automation, and Ansible-based infrastructure, optimizing embedded system interactions and deployment processes. 
+    \item Performance, Security \& Collaboration: Optimized low-level system performance, enforced secure coding practices, and acted as the key integration point between Systems and Platform teams for scalable, maintainable solutions.
 \end{itemize}
 \par
 %\vspace{\baselineskip}
 
 
-{\bf Software Engineer at Red Hat (limited UK then GmbH)}
+{\bf Software Engineer at Red Hat (limited UK then GmbH)}: Major enterprise open-source software company, serving 90\% of Fortune 500 companies.
 \hfill {{\bf 2015 --- 2022 }}
 \par
 \vspace{.01in}
+Developed and maintained OpenStack (TripleO), optimizing scalability and reliability.
+Served as the primary contact for Bugzilla, streamlining issue resolution.
+Specialized in automation with Python and Ansible for efficient deployment and management.
 \begin{itemize}
 \setlength{\itemsep}{0mm}
 \setlength{\parsep}{0mm}
-    \item Development of Tripleo, Red Hat's version of Openstack, an opensource cloud environment.
-    \item Core and DTL of mistral (opensource workflow engine).
-    \item Large codebase with massive use of python, ansible, bash, containers, orchestration, and virtualization.
+    \item OpenStack Development \& Maintenance: Led initial development and ongoing maintenance of OpenStack (TripleO) with a focus on automation using Python and Ansible. 
+    \item CI/CD \& Workflow Orchestration: Engineered CI pipelines with Jenkins and Zuul; contributed as Core and DTL to Mistral, an open-source workflow engine.
+    \item Scalable Cloud Infrastructure: Worked with large codebases, leveraging Python, Ansible, Bash, containers, and virtualization for orchestration in enterprise environments.
 \end{itemize}
 \par
 %\vspace{\baselineskip}
 
-{\bf Senior Developer at Hogarth Worldwide}
+{\bf Senior Developer at Hogarth Worldwide}: One of the world's largest marketing production agencies, part of WPP Group)
 \hfill {{\bf 2013 --- 2015 }}
 \par
 \vspace{.01in}
+Maintained and enhanced a CRM for advertisement management, optimizing workflows across all aspects of digital media creation.
+Worked extensively with Python to handle large-scale data processing, leveraging S3 for efficient storage and retrieval of large media files.
 \begin{itemize}
 \setlength{\itemsep}{0mm}
 \setlength{\parsep}{0mm}
-    \item Helped create a cloud-based asset management system written in django that is cloud provider agnostic.
-    \item The development used SCRUM, TDD, BDD, and CI extensively.
+    \item Cloud-Based Asset Management: Developed a provider-agnostic system using Django for scalable and flexible cloud deployment. 
+    \item Agile Development: Built using SCRUM, emphasizing iterative improvements and collaboration.
+    \item Quality \& Automation: Applied TDD, BDD, and CI to ensure reliability, test coverage, and seamless integration.
 \end{itemize}
 \par
 %\vspace{\baselineskip}
@@ -119,9 +131,9 @@ Development: TDD/BDD, CI/CD, Agile/SCRUM | OS: Linux (Advanced), Kernel Developm
 \begin{itemize}
 \setlength{\itemsep}{0mm}
 \setlength{\parsep}{0mm}
-    \item A startup aiming to provide semantic knowledge about all online products in Brazil.
-    \item Used loads of Machine Learning, Natural Language Processing, Computer Vision, NoSQL.
-    \item Coordinator and liaison for the development team from a partnership with Virginia Tech, besides managing a local team.
+    \item Startup Innovation: Contributed to a startup focused on delivering semantic knowledge for online products in Brazil, driving product intelligence and insights. 
+    \item Advanced Technologies: Utilized Machine Learning, Natural Language Processing (NLP), Computer Vision, and NoSQL to build scalable, intelligent systems.
+    \item Team Leadership \& Collaboration: Coordinated and acted as the liaison between the development team and Virginia Tech partnership while managing a local team for seamless project execution.
 \end{itemize}
 \par
 %\vspace{\baselineskip}
@@ -130,51 +142,53 @@ Development: TDD/BDD, CI/CD, Agile/SCRUM | OS: Linux (Advanced), Kernel Developm
 \hfill {{\bf 2000 --- 2013 }}
 \par
 \vspace{.03in}
-%\begin{description}
-%    \item[ ]
+With extensive experience across diverse industries including environmental monitoring, NGO support, banking, healthcare, telecommunications, and internet services, 
+I have successfully led and contributed to the development of innovative solutions using cutting-edge technologies.
 \begin{itemize}
 \setlength{\leftmargin}{1.4in}
 \setlength{\itemsep}{0mm}
 \setlength{\parsep}{0mm}
 
-    \item {\bf Tamoios Tecnologia} Created a Django-GIS application that read georeferenced satellite and aerial photography to control deforestation in the Amazon. Later mentored a team to maintain it.
+    \item {\bf Deforestation Monitoring } Developed a Django-GIS app for satellite imagery analysis to combat Amazon deforestation, mentoring a team for long-term maintenance. 
+    \item {\bf NGO Application Development } Led development, training, and mentoring efforts for a Django-based application supporting an NGO with unique scalability requirements.
 
-    \item {\bf Associa\c{c}\~{a}o Brasil SGI} Led development, training, and mentoring efforts for a Django-based application supporting an NGO with unique scalability requirements.
+    \item {\bf Banking Solutions } Served as Tech Lead for a large Java team, delivering a robust offline banking solution for a major financial institution. 
 
-    \item {\bf Bradesco and 7Comm} Served as Tech Lead for a 40-member Java development team on an offline banking solution for Bradesco, one of Brazil's largest banks.
+    \item {\bf Healthcare Technology } Founded and led a startup, creating full-stack web and mobile applications focused on diabetes management. 
 
-    \item {\bf Gliconline} Founder and Lead Engineer at a startup focused on supporting people with diabetes. Created a full stack web developement including APIs and mobile applications.
+    \item {\bf Remote Desktop Technology} Oversaw offshore team development of a Linux-based remote window service server, utilizing Nomachine for efficient remote access. 
 
-    \item {\bf MiPC} Tech Lead and System Architect, overseeing an offshore team in developing a terminal service server Linux distribution based on Nomachine. Dealing with a large code base from kernel-level to GNOME applications.
+    \item {\bf ISP Infrastructure} Designed and integrated an ISP system, implementing JBoss, MySQL, RADIUS, and POTS for robust core infrastructure.
 
-    \item {\bf Insite} Tech Lead responsible for designing, implementing, and coordinating an ISP system. JBoss and MySQL used for core infrastructure. Integration with RADIUS and POTS
-
-
-%\end{description} 
 \end{itemize} 
 \vspace{\baselineskip}
 \marginpar{\rule{7.2in}{0.4mm}}
 \vspace{.1in}
-I don't have a bachelor's degree, having left university to focus on programming.  \marginpar{{\bf Education}}
+I don't have a bachelor's degree, having left university to focus on programming.  
 However, as I have since accumulated significant work experience, and as I am an avid self-taught learner, I don't think this limits my abilities as a developer.
 \par
 
-\vspace{\baselineskip}
+%\vspace{\baselineskip}
 
-{\bf Physics Bachelor - Instituto de F\'{\i}sica USP} \hspace*{\fill} {{\bf 1995 --- 2003 }}
+{\bf Physics Bachelor - Instituto de F\'{\i}sica USP} \hspace*{\fill} {{\bf 1995 --- 2003 }} \marginpar{{\bf Education}}
 \par
 \vspace{.03in}
 
-Focus given to the practical aspects of physics, like development of new instrumentation,
-data acquisition software and analog to digital conversion. Extra classes taken at biology and hardware design.
+Specialized in the practical applications of physics, with a focus on developing innovative instrumentation,
+data acquisition systems, and analog-to-digital conversion.
+Gained hands-on experience in designing and implementing complex systems for scientific research.
+Completed additional coursework in biology and hardware design, expanding interdisciplinary knowledge and enhancing the
+ability to bridge the gap between software and hardware in real-world applications. This foundational experience has
+honed my problem-solving skills and deepened my technical versatility, which I continue to leverage in software engineering.
 \par
 
 \vspace{\baselineskip}
 {\bf Electrical Engineering - Escola de Engenharia Mackenzie} \hspace*{\fill} {{\bf 1992 --- 1995 }}
 \par
 \vspace{.03in}
-Classes included programming in C and Pascal, linear algebra and numeric calculus.
-
+Programming: C and Pascal, developing foundational skills in software development and algorithm design. 
+\par
+Mathematics: Linear Algebra and Numerical Calculus, providing a solid understanding of mathematical modeling, problem-solving, and computational methods.
 \par
 \vspace{\baselineskip}
 \marginpar{\rule{7.2in}{0.4mm}}
@@ -232,17 +246,17 @@ One of the ten Brazilian finalists for the Android Development Kit challenge.
 \par
 \vspace{\baselineskip}
 
-\marginpar{\rule{7.2in}{0.4mm}}
-\vspace{.1in}
+%\marginpar{\rule{7.2in}{0.4mm}}
+%\vspace{.1in}
 
 
-{\bf Other Links and Interests}
-\marginpar{{\bf Other Links and Interests}}
-\par
-github \href{http://github.com/frac}{http://github.com/frac}  slideshare \href{http://www.slideshare.net/fractalk}{http://www.slideshare.net/fractalk}
-\par
-I was founder and organiser of the \href{http://twitter.com/pythondundee}{python dundee} user group.
-\par
-%\begin{center}\small This document is done in \LaTeX\end{center}
+%{\bf Other Links and Interests}
+%\marginpar{{\bf Other Links and Interests}}
+%\par
+%github \href{http://github.com/frac}{http://github.com/frac}  slideshare \href{http://www.slideshare.net/fractalk}{http://www.slideshare.net/fractalk}
+%\par
+%I was founder and organiser of the \href{http://twitter.com/pythondundee}{python dundee} user group.
+%\par
+%%\begin{center}\small This document is done in \LaTeX\end{center}
 \end{document}
 
